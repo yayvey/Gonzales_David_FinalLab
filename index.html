@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="hidden">All About the Games</h1>
+        <img id="main-logo" src="images/logo.jpg" alt="avengers logo">
+    </header>
+
+    <main>
+        <nav id="character-nav">
+            <ul class="characters"> <!-- characters/games in navigation-->
+                <li> <!-- i cannot get this input toggle to work for the life of me-->
+                    <input type = "checkbox" class="cbsprite">
+                    <a href="#lightbox">
+                        <div class="sprite"></div>
+                        <div class="red_bumper"></div>
+                        <label for="lightbox-toggle"><h5>Hellish Quart</h5></label>
+                    </a>
+                   
+                </li>
+
+                <li>
+                    <a href="#lightbox2">
+                        <div class="sprite" id="kenshi"></div>
+                        <div class="red_bumper"></div>
+                        <h5><label>Kenshi</label></h5>
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="#lightbox3">
+                    <div class="sprite" id="eft"></div>
+                    <div class="red_bumper"></div>
+                    <h5><label>Escape From Tarkov</label></h5>
+                </a>
+                
+                </li>
+            
+                <li>
+                    <a href="#lightbox4">
+                        <div class="sprite" id="vtm"></div>
+                        <div class="red_bumper"></div>
+                        <h5><label>V:TM Bloodlines</label></h5>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+
+        <article>
+            <h3>Video Games FTW!</h3>
+            <p>Choose your video game to learn more about their story.</p>
+        </article>
+
+        
+    </main>
+    <!-- make this a sticky footer so it's always at the bottom-->
+    <footer class="sticky_footer">
+        <h3>All Images &copy;</h3>
+    </footer>
+
+    <!-- lightbox goes here -->
+    <section class="lightbox" id="lightbox">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- hero image is a background image -->
+        <article>
+            <h3 class="lb_heading">Hellish Quart</h3>
+            <p class="lb_text">
+                Hellish Quart is a sword fighting video game by Polish developer Kubold. The game is a 1v1 battle of two sword wielding players who fight until the opposing player is severely injured.
+            </p>
+            <p class="lb_text">
+                At this moment, there is no story to the game yet, and Hellish Quart simply acts as a vehicle for a highly skilled video game Animator + HEMA enthusiast to create a love letter for European swordfighting. All techniques and weapons are based on historical weaponry and manuals.
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Kenshi</h3>
+            <p class="lb_text">
+                A free-roaming squad based RPG. Focusing on open-ended sandbox gameplay features rather than a linear story. Be a trader, a thief, a rebel, a warlord, an adventurer, a farmer, a slave, or just food for the cannibals.
+            </p>
+            <p class="lb_text">
+                This game has a linear story, although very obscured through a lack of telling. For the player to want to learn the "story", they have to explore a vast world and find it out themselves. It is a "create your own story" style game which does a great job in environmental storytelling, with the biomes of the game telling a small story of the greater world which the player can unfold piece by piece. 
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox3">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Escape From Tarkov</h3>
+            <p class="lb_text">
+                Escape from Tarkov is a multiplayer tactical first-person shooter video game in development by Battlestate Games for Windows. The game is set in the fictional Norvinsk region, where a war is taking place between two private military companies.
+            </p>
+            <p class="lb_text">
+                It tells a story of the bleak near-future where mega corporations are given too much power while nations are constantly barred by red tape, with the inevitable outcome leading to nuclear fallout. The story explores the worst case scenario of the modern military direction towards privatized security. In-game, players bring gear into a raid and must survive and extract in order to keep the gear and any other loot they picked up. It gave birth to the term "extraction shooter", and is considered more hardcore due to the high-stakes style of gameplay.
+            </p>
+        </article>
+    </section>
+
+    <section class="lightbox" id="lightbox4">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">Vampire: The Masquerade - Bloodlines</h3>
+            <p class="lb_text">
+                Vampire: The Masquerade – Bloodlines is a 2004 action role-playing video game developed by Troika Games and published by Activision for Microsoft Windows. 
+            </p>
+            <p class="lb_text">
+                Set in White Wolf Publishing's World of Darkness, the game is based on White Wolf's role-playing game Vampire: The Masquerade and follows a human who is killed and revived as a fledgling vampire. The game depicts the fledgling's journey through early 21st-century Los Angeles to uncover the truth behind a recently discovered relic that heralds the end of all vampires.
+            </p>
+        </article>
+    </section>
+    
+</body>
+
+</html>
